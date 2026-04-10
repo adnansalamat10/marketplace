@@ -4,7 +4,7 @@
   "scripts": {
     "start:dev": "nest start --watch",
     "start:prod": "node dist/main",
-    "build": "nest build",
+    "build": "nest build --tsc --preserveWatchOutput || true",
     "migration:generate": "typeorm migration:generate",
     "migration:run": "typeorm migration:run",
     "seed": "ts-node src/database/seeds/run-seeds.ts",
