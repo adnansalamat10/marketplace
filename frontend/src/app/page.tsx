@@ -1,3 +1,4 @@
+'use client'
 export default function Home() {
   const categories = [
     { id: 'game_currency', label: 'Game Currency', icon: '🎮', desc: 'Coins, gems & more' },
