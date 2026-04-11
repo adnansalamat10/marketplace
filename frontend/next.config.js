@@ -1,2 +1,1 @@
-module.exports = { reactStrictMode: true }
-// update
+module.exports = {}
